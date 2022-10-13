@@ -1,0 +1,496 @@
+
+@font-face {
+    src: url(fonts/BebasNeue-Regular.ttf);
+    font-family: Bebas;
+}
+
+@font-face {
+    src: url(fonts/Sacramento-Regular.ttf);
+    font-family: Sacramento;
+}
+
+@font-face {
+    src: url(fonts/Dosis-ExtraLight.ttf);
+    font-family: Dosis Light;
+}
+
+@font-face {
+    src: url(fonts/Dosis-Bold.ttf);
+    font-family: Dosis Bold;
+}
+
+@font-face {
+    src: url(fonts/Brightly Crush Shine.otf);
+    font-family: Crush;
+}
+
+@font-face {
+    src: url(fonts/Bluetea.otf);
+    font-family: Bluetea;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    position: fixed;
+    min-height: 7.5vh;
+    padding-left: 4%;
+    padding-right: 4%;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 100;
+    background: #d0594f;
+    box-shadow: 0px -5px 20px 5px rgba(0,0,0,0.6);
+}
+
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    padding-top:1%;
+    width: 50px;
+    cursor: pointer;
+    display:none;
+}
+
+.title {
+    width: 90vw;
+    height: 40vw;
+    display: flex;
+    padding-left: 7.5%;
+    padding-top: 15%;
+}
+
+.aboutme {
+    width: 70vw;
+    height: 45vw;
+    display: flex;
+    padding-left: 17.5%;
+    padding-top:0%;
+}
+
+.menu-icon:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin-left: 50px;
+        margin-top: 1%;
+    }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-weight: bolder;
+            font-family: Dosis Bold;
+        }
+
+            nav ul li a:hover {
+                color: #ffa187;
+            }
+
+a {
+    color: #9f4c3b;
+    font-family: Dosis Bold;
+    outline:none;
+}
+
+.text-design1 {
+    font-family: Bluetea;
+    color: #dedede;
+    font-size: 7.5vw;
+}
+
+.text-design2 {
+    font-family: Dosis Light;
+    color: #dedede;
+    font-size: 20px;
+}
+
+.text-design3 {
+    font-family: Bluetea;
+    text-align: center;
+    color: white;
+    font-size: 10vw;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.text-design4 {
+    font-family: Bluetea;
+    text-align: center;
+    color: #ff9b54;
+    font-size: 5vw;
+    padding:20%;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.section-1 {
+    height: 100vh;
+    background-image: url(../public/images/wallpaper.png);
+    background-color: #d89d8c;
+    padding-top: 0%;
+    margin-right: auto;
+    display: block;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.section-2 {
+    background: linear-gradient(to right,#d89d8c 0%, #d89d8c 100%);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    box-shadow: 5px 5px 20px 2.5px #241e1d;
+}
+
+.section-2text {
+    text-align: right;
+    padding-top: 25%;
+    padding-right: 15%;
+    justify-content: center;
+    float:right;
+}
+
+.processimage {
+    height: 500px;
+    display: inline-flex;
+    z-index: 80;
+    float: left;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 6%;
+}
+
+.box {
+    width: 100%;
+}
+
+.section-3 {
+    height: 100vh;
+    background-image: url(../public/images/wallpaper.png);
+    background-color: #d89d8c;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10%;
+}
+
+
+.section-4 {
+    background: linear-gradient(to right,#d89d8c 0%, #d89d8c 100%);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: 5px 5px 20px 2.5px #241e1d;
+}
+
+.section-4text {
+    text-align: center;
+    padding-top: 20%;
+    justify-content: center;
+}
+
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 7.5vh;
+    left: 2%;
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+    font-family: Bebas;
+    background-color: black;
+    color: black;
+    font-size: 20px;
+}
+
+.mobile-menu li{
+    margin-bottom:10px;
+}
+
+.openmobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: Bebas;
+    color: black;
+    font-size: 20px;
+}
+
+.skills{
+    display: flex;
+    position: center;
+    width: 75vw;
+    padding-left: 25%;
+}
+
+.projectspan {
+    background: linear-gradient(to right,#d89d8c 0%, #d89d8c 100%);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    z-index: 60;
+    box-shadow: 0px 0px 20px 2.5px #241e1d;
+}
+
+.projectspan2 {
+    background: linear-gradient(to right,#d89d8c 0%, #d89d8c 100%);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    z-index: 60;
+    box-shadow: 0px 0px 20px 2.5px #241e1d;
+}
+
+
+.projectbreak {
+    height: 25vh;
+    background-image: url(../public/images/wallpaper.png);
+    background-color: #d89d8c;
+    display: block;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 60;
+}
+
+.projectspantext1 {
+    font-family: Dosis Bold;
+    text-align: left;
+    font-size: 3vw;
+    padding-left: 45%;
+    justify-content: center;
+    color: white;
+}
+
+.projectspantext2 {
+    text-align: left;
+    font-size: 5vw;
+    padding-top: 15%;
+    padding-left: 45%;
+    justify-content: center;
+    font-family: Bebas;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.projectspantext3 {
+    font-family: Dosis Bold;
+    text-align: left;
+    font-size: 2vw;
+    padding-left: 45%;
+    justify-content: center;
+    padding-right:3%;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+.gildaImage {
+    height: 40vw;
+    display: flex;
+    z-index: 200;
+    margin-top: 7.5%;
+    margin-left: 5%;
+    float: left;
+}
+
+.gameImage {
+    height: 50vh;
+    display: flex;
+    z-index: 200;
+    margin-top: 15%;
+    margin-left: 3%;
+    float: left;
+}
+
+.ghostImage {
+    height: 30vw;
+    display: flex;
+    z-index: 200;
+    margin-top: 7.5%;
+    margin-left: 5%;
+    float: left;
+}
+
+.button1 {
+    font-family: Dosis Bold;
+    font-size: 2vw;
+    margin-top: 2%;
+    margin-left: 6%;
+    align-items: center;
+    border-radius: 12px;
+    box-sizing: border-box;
+    color: #d0594f;
+    cursor: pointer;
+    display: inline-flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    padding: 1%;
+    text-align: center;
+    touch-action: manipulation;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.button2 {
+    font-family: Dosis Bold;
+    font-size: 2vw;
+    margin-top: 2%;
+    margin-right: 48%;
+    float: right;
+    align-items: center;
+    border-radius: 12px;
+    box-sizing: border-box;
+    color: #d0594f;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    text-align: center;
+    touch-action: manipulation;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    nav {
+        display: none
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .section-2text {
+        text-align: right;
+        padding-top: 0%;
+        padding-right: 15%;
+        justify-content: center;
+        float: right;
+    }
+
+    .section-4 {
+        background: linear-gradient(to right,#d89d8c 0%, #d89d8c 100%);
+        background-position: center;
+        background-size: cover;
+        height: 30vh;
+        box-shadow: 5px 5px 20px 2.5px #241e1d;
+    }
+
+}
+
+@media only screen and (max-height: 600px) {
+    .section-2 {
+        background: linear-gradient(to right,#d89d8c 0%, #d89d8c 100%);
+        background-position: center;
+        height: 100vw;
+        background-size: cover;
+        box-shadow: 5px 5px 20px 2.5px #241e1d;
+    }
+
+    .section-1 {
+        height: 100vw;
+        background-image: url(../public/images/wallpaper.png);
+        background-color: #d89d8c;
+        padding-top: 0%;
+        margin-right: auto;
+        display: block;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .section-4 {
+        background: linear-gradient(to right,#d89d8c 0%, #d89d8c 100%);
+        background-position: center;
+        background-size: cover;
+        height: 30vw;
+        box-shadow: 5px 5px 20px 2.5px #241e1d;
+    }
+
+
+}
+
+@media only screen and (max-width: 1075px) {
+
+    .section-2 {
+        background: linear-gradient(to right,#d89d8c 0%, #d89d8c 100%);
+        background-position: center;
+        height: 1000px;
+        background-size: cover;
+        box-shadow: 5px 5px 20px 2.5px #241e1d;
+    }
+
+    .section-2text {
+        text-align: right;
+        padding-right: 15%;
+        margin-bottom: 1000px;
+        justify-content: center;
+        position: absolute;
+        top: 175%;
+        right: 0%;
+    }
+
+    .processimage {
+        height: 500px;
+        display: flex;
+        z-index: 80;
+        position: absolute;
+    }
+
+    .section-4text {
+        text-align: center;
+        justify-content: center;
+        margin-bottom:40%;
+        padding-bottom:50%;
+    }
+
+    .section-4 {
+        background: linear-gradient(to right,#d89d8c 0%, #d89d8c 100%);
+        background-position: center;
+        background-size: cover;
+        height: 800px;
+        box-shadow: 5px 5px 20px 2.5px #241e1d;
+    }
+
+    .section-3 {
+        height: 60vh;
+        background-image: url(../public/images/wallpaper.png);
+        background-color: #d89d8c;
+        background-attachment: fixed;
+        background-size: cover;
+        padding: 10%;
+    }
+
+    .skills {
+        display: flex;
+        position: absolute;
+        width: 75vw;
+        padding-left: 22.5%;
+        float:right;
+        top: 355%;
+    }
+}
