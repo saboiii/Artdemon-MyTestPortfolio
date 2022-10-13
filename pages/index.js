@@ -8,7 +8,7 @@ export default function Home() {
     <div>
         <Head>
             <meta charset="utf-8" name="description" content="My portfolio."/>
-            <title>ArtDevil | Portfolio</title>
+            <title>ArtDemon | Portfolio</title>
         </Head>
         <Navbar/>
         <Body />
