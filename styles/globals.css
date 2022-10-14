@@ -432,6 +432,7 @@ a {
         float: right;
     }
 
+
     .section-4 {
         background: linear-gradient(to right,#d89d8c 0%, #d89d8c 100%);
         background-position: center;
@@ -511,13 +512,6 @@ a {
 
 @media only screen and (max-width: 1075px) {
 
-    .section-2 {
-        background: linear-gradient(to right,#d89d8c 0%, #d89d8c 100%);
-        background-position: center;
-        height: 1000px;
-        background-size: cover;
-        box-shadow: 5px 5px 20px 2.5px #241e1d;
-    }
 
     .section-2text {
         text-align: right;
