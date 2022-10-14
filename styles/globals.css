@@ -459,15 +459,21 @@ a {
     }
 
     .processimage {
-        height: 200px;
-        display: inline-flex;
+        height: 70vw;
+        display: flex;
         z-index: 80;
-        float: left;
-        margin-left: 6%;
-        margin-right: 6%;
-        margin-top: 6%;
+        position: absolute;
     }
 
+    .projectspan1 {
+        background: linear-gradient(to right,#d89d8c 0%, #d89d8c 100%);
+        background-position: center;
+        background-size: cover;
+        height: 40vh;
+        width: 100%;
+        z-index: 60;
+        box-shadow: 0px 0px 20px 2.5px #241e1d;
+    }
 
 }
 
@@ -520,13 +526,6 @@ a {
         position: absolute;
         top: 175%;
         right: 0%;
-    }
-
-    .processimage {
-        height: 500px;
-        display: flex;
-        z-index: 80;
-        position: absolute;
     }
 
     .section-4text {
