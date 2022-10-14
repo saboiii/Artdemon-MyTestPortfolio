@@ -31,8 +31,8 @@ const Body = () => {
                         I'm good at using graphic editors.
                     </p>
                 </div>
-                <img src="images/skills.png" class="skills" />
             </div>
+            <img src="images/skills.png" class="skills" />
         </div>
     )
 }
