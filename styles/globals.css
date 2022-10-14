@@ -450,13 +450,24 @@ a {
     }
 
     .gameImage {
-        height: 40vh;
+        height: 30vw;
         display: flex;
         z-index: 200;
         margin-top: 15%;
         margin-left: 3%;
         float: left;
     }
+
+    .processimage {
+        height: 200px;
+        display: inline-flex;
+        z-index: 80;
+        float: left;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 6%;
+    }
+
 
 }
 
