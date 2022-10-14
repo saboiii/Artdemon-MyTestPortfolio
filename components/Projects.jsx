@@ -8,7 +8,9 @@ const Projects = () => {
                 <h1 className="projectspantext2">Project - Gilda</h1>
                 <h2 className="projectspantext1">Overview</h2>
                 <p className="projectspantext3">
-                    Created using Adobe Photoshop.
+                    Created using Adobe Photoshop. This is simply a test
+                    project for the website I made for Halloween over a
+                    course of 2 hours.
                 </p>
                 <a href="https://drive.google.com/file/d/1DyuXWjAuXLA3xooDQD5JzV5bugOZasXW/view?usp=sharing">
                     <button className="button1">PSD File Download</button>
@@ -39,11 +41,18 @@ const Projects = () => {
                 <h1 className="projectspantext2">Project - Blue Ghost</h1>
                 <h2 className="projectspantext1">Overview</h2>
                 <p className="projectspantext3">
-                    Created using Adobe Photoshop.
+                    Created using Adobe Photoshop. Another piece I made for Halloween
+                    over the course of 2 hours 30 minutes.
                 </p>
                 <a href="https://drive.google.com/file/d/14t7D09KuQz4oi1qhjc35_wiHdQfPN0VH/view?usp=sharing">
                     <button className="button1">PSD File Download</button>
                 </a>
+            </div>
+
+            <div className="projectbreak"></div>
+
+            <div className="projectspan2">
+                <h1 className="projectspantext4">More coming soon!</h1>
             </div>
         </div>
     )
