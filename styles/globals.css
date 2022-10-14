@@ -480,7 +480,8 @@ a {
     .skills {
         display: flex;
         position: absolute;
-        width: 95vw;
+        width: 90vw;
+        left:6%;
         top: 400%;
     }
 }
