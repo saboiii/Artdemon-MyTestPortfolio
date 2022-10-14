@@ -436,7 +436,7 @@ a {
         background: linear-gradient(to right,#d89d8c 0%, #d89d8c 100%);
         background-position: center;
         background-size: cover;
-        height: 30vh;
+        height: 60vh;
         box-shadow: 5px 5px 20px 2.5px #241e1d;
     }
 
@@ -482,7 +482,7 @@ a {
         position: absolute;
         width: 90vw;
         left:6%;
-        top: 400%;
+        top: 380%;
     }
 }
 
@@ -504,14 +504,6 @@ a {
         display: block;
         background-attachment: fixed;
         background-size: cover;
-    }
-
-    .section-4 {
-        background: linear-gradient(to right,#d89d8c 0%, #d89d8c 100%);
-        background-position: center;
-        background-size: cover;
-        height: 30vw;
-        box-shadow: 5px 5px 20px 2.5px #241e1d;
     }
 
 
@@ -544,13 +536,7 @@ a {
         padding-bottom:50%;
     }
 
-    .section-4 {
-        background: linear-gradient(to right,#d89d8c 0%, #d89d8c 100%);
-        background-position: center;
-        background-size: cover;
-        height: 800px;
-        box-shadow: 5px 5px 20px 2.5px #241e1d;
-    }
+
 
     .section-3 {
         height: 60vh;
