@@ -18,7 +18,7 @@ const Projects = () => {
             <div className="projectbreak"></div>
 
             <img src="images/game1.png" class="gameImage" />
-            <div className="projectspan">
+            <div className="projectspan1">
                 <h1 className="projectspantext2">IMMUNE</h1>
                 <h2 className="projectspantext1">Overview</h2>
                 <p className="projectspantext3">

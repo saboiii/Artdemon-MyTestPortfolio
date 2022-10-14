@@ -256,11 +256,21 @@ a {
     box-shadow: 0px 0px 20px 2.5px #241e1d;
 }
 
+.projectspan1 {
+    background: linear-gradient(to right,#d89d8c 0%, #d89d8c 100%);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    z-index: 60;
+    box-shadow: 0px 0px 20px 2.5px #241e1d;
+}
+
 .projectspan2 {
     background: linear-gradient(to right,#d89d8c 0%, #d89d8c 100%);
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    height: 50vw;
     width: 100%;
     z-index: 60;
     box-shadow: 0px 0px 20px 2.5px #241e1d;
@@ -401,6 +411,24 @@ a {
         box-shadow: 5px 5px 20px 2.5px #241e1d;
     }
 
+    .projectspan {
+        background: linear-gradient(to right,#d89d8c 0%, #d89d8c 100%);
+        background-position: center;
+        background-size: cover;
+        height: 40vh;
+        width: 100%;
+        z-index: 60;
+        box-shadow: 0px 0px 20px 2.5px #241e1d;
+    }
+
+    .gameImage {
+        height: 40vh;
+        display: flex;
+        z-index: 200;
+        margin-top: 15%;
+        margin-left: 3%;
+        float: left;
+    }
 }
 
 @media only screen and (max-height: 600px) {
